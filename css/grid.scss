@@ -23,6 +23,6 @@
 
 @each $width in $column-widths {
   .col-#{$width} {
-    flex-basis: $width;
+    flex-basis: #{$width * 1%};
   }
 }
