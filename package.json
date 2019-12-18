@@ -1,0 +1,19 @@
+{
+  "name": "sabre",
+  "version": "1.0.0",
+  "description": "A CSS framework based on the International Typographic Style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3bate/sabre.git"
+  },
+  "author": "d3bate",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/d3bate/sabre/issues"
+  },
+  "homepage": "https://github.com/d3bate/sabre#readme"
+}
