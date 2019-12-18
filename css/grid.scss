@@ -1,0 +1,28 @@
+@each $grid-option in $grid-options {
+  .#{$grid-option} {
+    display: flex;
+    flex-direction: $grid-option;
+  }
+  .#{$grid-option}-wrap {
+    display: flex;
+    flex-direction: #{$grid-option};
+    flex-wrap: wrap;
+  }
+  .#{$grid-option}-wrap-reverse {
+    display: flex;
+    flex-direction: #{$grid-option};
+    flex-wrap: wrap-reverse;
+  }
+}
+
+@each $name, $option in $content-justify-options {
+  .justify-#{$name} {
+    justify-content: $option;
+  }
+}
+
+@each $width in $column-widths {
+  .col-#{$width} {
+    flex-basis: $width;
+  }
+}

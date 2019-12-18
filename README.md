@@ -1,2 +1,2 @@
 # Sabre
-A CSS framework based on the international typographic style.
+A CSS framework based on the International Typographic Style.
