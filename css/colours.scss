@@ -1,5 +1,3 @@
-$colours: ('blue': '#fff', 'red': '#fff', 'green': '#fff');
-
 @each $name, $colour in $colours {
   .bg-#{$name} {
     background: $colour;

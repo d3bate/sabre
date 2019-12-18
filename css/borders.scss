@@ -1,0 +1,9 @@
+@each $colour-name, $colour in $colours {
+  @each $pixel-strength in $border-strengths {
+    @each $type in $border-types {
+      .border-#{$colour-name}-#{$pixel-strength}-#{$type} {
+        border: #{$pixel-strength}px $type $colour
+      }
+    }
+  }
+}
