@@ -5,3 +5,5 @@ The minified css file is available from jsdelivr. Add it to your project (using 
 ```html
 <link rel="stylesheet" href="https://rawcdn.githack.com/d3bate/sabre/b418c19de32eba7b69e03e1b1e23aaed12cbc359/css/build.css" integrity="sha384-kxm4ihHgx07wz0omKuhsxprofOncx8uF0mBLMq50LO1VAOdOdtRdcPTibSh1Xkg+" crossorigin="anonymous">
 ```
+## Contributing 
+Please feel free to make pull requests. 
