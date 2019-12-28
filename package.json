@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/d3bate/sabre/issues"
   },
-  "homepage": "https://github.com/d3bate/sabre#readme"
+  "homepage": "https://github.com/d3bate/sabre#readme",
+  "dependencies": {
+    "react": "^16.12.0"
+  }
 }
